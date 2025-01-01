@@ -70,6 +70,8 @@ The DeepSeek-VL family (both 1.3B and 7B models) showcases superior user experie
 
 <br><br>
 
+<img src ="model_deepseek.png" width=80%>
+
 
 To approach AGI (Artificial General Intelligence) in a multimodal context using this architecture, we can extend the hybrid multimodal model to integrate and process diverse modalities—such as vision, language, and potentially audio or sensory data—through a shared embedding space. The model employs a hybrid vision encoder for extracting both high-level semantics (low-res) and fine-grained details (hi-res) from visual inputs, while a vision-language adaptor bridges these visual features to a pretrained language model capable of reasoning and generating responses. By incorporating sequential training strategies—such as pretraining on large-scale interleaved datasets and fine-tuning on specific multimodal tasks—the model gains a balanced understanding of both modalities while retaining strong reasoning capabilities. Expanding this architecture with time-series encoders (for videos), reinforcement learning (for real-world interactions), and hierarchical memory modules could enable the system to adaptively reason, learn from context, and interact seamlessly across complex, real-world scenarios—key steps towards AGI.
 
